@@ -1,0 +1,4 @@
+export PYTHONIOENCODING=‘utf8’ && python /Users/micahbeck/Library/Application\ Support/BETABRITE\ MICAH/newsrss.py  | awk '$1=$1' ORS='            ' 
+
+
+

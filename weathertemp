@@ -1,0 +1,1 @@
+echo $(ansiweather -l Kent,OH,US -u imperial -s false -i false -w false -h false -H false -p False -d False -a False) | sed -n -e 's/^.*Kent: //p' | sed 's/°/ /g'
