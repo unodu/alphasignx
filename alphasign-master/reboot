@@ -1,0 +1,22 @@
+#!/usr/bin/python
+
+
+#MICAH BECK
+#NOV 2 2021
+
+
+from alphasign import *
+import time
+from time import sleep
+from datetime import date
+from datetime import datetime
+import os
+import subprocess
+import requests
+
+dev = AlphaSign()
+
+
+
+
+dev.reboot
